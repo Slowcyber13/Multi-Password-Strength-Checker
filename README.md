@@ -24,6 +24,14 @@ Weak passwords remain a major security vulnerability, compromising personal and 
 | Documentation & GitHub Setup      | Upload code, create README, and set up repository | Day 8–9 |
 | Final Demo & Submission           | Record demo video and prepare report      | Day 10–12  |
 
+## Why This Solution Works
+
+	•	Multiple Password Handling: Users can assess multiple passwords in a single run.
+	•	Automated Password Generation: Weak passwords (score ≤ 2) trigger a secure password suggestion.
+	•	Clear Feedback: Every password gets detailed feedback to guide improvement.
+	•	Compatibility: This tool runs smoothly in various Python environments, including PyCharm and mobile editors.
+
+
 ## Code: Password Strength Checker for Multiple Passwords
 
 ```python
@@ -95,9 +103,3 @@ if __name__ == "__main__":
     print("Welcome to the Password Strength Checker!")
     check_multiple_passwords()
 
-Why This Solution Works
-
-	•	Multiple Password Handling: Users can assess multiple passwords in a single run.
-	•	Automated Password Generation: Weak passwords (score ≤ 2) trigger a secure password suggestion.
-	•	Clear Feedback: Every password gets detailed feedback to guide improvement.
-	•	Compatibility: This tool runs smoothly in various Python environments, including PyCharm and mobile editors.
